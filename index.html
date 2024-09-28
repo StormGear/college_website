@@ -8,15 +8,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta name="twitter:College Website" content="">
     <title>College Website Design</title>
 </head>
 <body>
+    <!-- header section  -->
     <header class="header">
         <nav>
             <a href="index.html"><img src="assets/logo3.png" alt="school logo"></a>
             <div class="nav-links">
                 <ul>
-                    <span class="icon material-symbols-outlined">
+                    <span class="icon material-symbols-outlined" onclick="hideMenu()">
                         cancel
                     </span>
                     <li><a href="">home</a></li>
@@ -29,7 +31,6 @@
                 menu
             </span>
         </nav>
-
         <div class="center-text">
             <h1>WELCOME TO OUR COLLEGE</h1>
             <p>Education is the key to success</p>
@@ -38,8 +39,29 @@
                 menu
                 </span> -->
         </div>
-
     </header>
+
+    <!-- courses section  -->
+     <section class="courses">
+        <h2>Courses We Offer</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam, laborum quasi sunt iste atque ad rerum!</p>
+
+        <div class="row">
+            <div class="course">
+                <h3>Beginner</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex commodi vel consequuntur eaque fugit veritatis sed cupiditate distinctio. Libero, sequi?</p>
+            </div>
+            <div class="course">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex commodi vel consequuntur eaque fugit veritatis sed cupiditate distinctio. Libero, sequi?</p>
+            </div>
+            <div class="course">
+                <h3>Expert</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex commodi vel consequuntur eaque fugit veritatis sed cupiditate distinctio. Libero, sequi?</p>
+            </div>
+        </div>
+
+     </section>
     
     <script src="./scripts/app.js"></script>
 </body>

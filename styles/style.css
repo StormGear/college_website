@@ -6,6 +6,10 @@
     font-optical-sizing: auto;
 }
 
+:root {
+    --border-radius: 0.8rem;
+}
+
  /* Hero section  */
 .header {
     min-height: 100vh;
@@ -124,6 +128,8 @@ nav .icon {
     margin: 10px 0;
 }
 
+ /* courses section  */
+
 .row {
     /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -136,7 +142,7 @@ nav .icon {
 .course {
     padding: 2%;
     background-color: #d1c85a;
-    border-radius: 0.8rem;
+    border-radius: var(--border-radius);
     margin: 1%;
     transition:  1s;
 }
@@ -153,8 +159,68 @@ nav .icon {
     margin: 0.8rem 0;
 }
 
+ /* campus section   */
+.campuses {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.campuses h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.campus {
+    flex-basis: 32%;
+    border-radius: var(--border-radius);
+    margin: 0.8rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.campus img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.film {
+    background-color: transparent;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.film:hover {
+    background-color: rgba(209,200, 90, 0.5);
+}
+
+.film h3 {
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.film:hover h3 {
+    left: 50%;
+    opacity: 1;
+}
 
 
+
+
+ /* media queries  */
 @media  screen and (max-width: 700px) {
     .nav-links ul li a
     {

@@ -172,6 +172,11 @@ nav .icon {
     margin-bottom: 2rem;
 }
 
+.campuses p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
 .campus {
     flex-basis: 32%;
     border-radius: var(--border-radius);
@@ -231,6 +236,10 @@ nav .icon {
     margin-bottom: 2rem;
 }
 
+.facilities p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
 .facility {
     flex-basis: 32%;
     border-radius: var(--border-radius);
@@ -300,6 +309,77 @@ nav .icon {
     color: yellow;
 }
 
+/* Call to Action section  */
+
+.cta {
+    width: 80%;
+    margin: 7rem auto;
+    border-radius: var(--border-radius);
+    text-align: center;
+    padding: 100px 0;
+    background-color: red;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/banner2.jpg);
+    background-size: cover;
+}
+
+.cta h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.cta p {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.cta a {
+    color: white;
+}
+
+
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #b1a535;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    width: 80%;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    margin: 2rem;
+    
+}
+
+.footer-content ul li {
+    display: inline;
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+.footer-content ul li a {
+    color: #000;
+}
+
+
+.footer-bottom {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.footer-bottom a {
+    color: #000;
+    text-decoration: none;
+}
 
 
 

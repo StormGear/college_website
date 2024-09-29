@@ -217,6 +217,38 @@ nav .icon {
     opacity: 1;
 }
 
+/* facilities section  */
+
+.facilities {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.facilities h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.facility {
+    flex-basis: 32%;
+    border-radius: var(--border-radius);
+    margin: 0.8rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.facility h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.facility span {
+    font-size: 4rem;
+    margin: 1rem 0;
+}
+
 
 
 
@@ -281,6 +313,10 @@ nav .icon {
     }
 
     .row .course-col {
+        margin: 5% 0;
+    }
+
+    .row .facility {
         margin: 5% 0;
     }
 
